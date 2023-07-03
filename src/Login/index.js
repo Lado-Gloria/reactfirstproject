@@ -41,7 +41,7 @@ const Login =()=>{
 <form className="form" onSubmit={handleSubmit                                                                                                                                                                                                 }>
                 <h1>Login</h1>
                 <input placeholder="Enter user name " type="text"
-                onChange= {(e)=>setUsername(e .target.value)}/>
+                onChange= {(e)=>setUsername(e.target.value)}/>
                <br/>
                <br/>
                <br/>
