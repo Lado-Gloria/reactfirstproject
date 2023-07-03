@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
+
 const AddProduct = () => {
   const navigate = useNavigate();
   const [productName, setProductName] = useState('');
@@ -10,15 +11,16 @@ const AddProduct = () => {
     const queryParams = new URLSearchParams({
       name: productName,
       price: productPrice,
-     
-    }).toString();
    
+    }).toString();
+    
     navigate(`/products?${queryParams}`);
   };
   return (
     <div>
       <h1>Add Product</h1>
       <form onSubmit={handleSubmit}>
+        
         <div>
           <label htmlFor="productName">Name:</label>
           <input
