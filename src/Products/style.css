@@ -68,3 +68,15 @@
     justify-content: space-evenly;
 
   }
+  .product-added{
+    color: #3992ff;
+    font-weight: 500;
+    cursor: pointer;
+    width: 10rem;
+    height: 3rem;
+   position: relative;
+    bottom: 150px ;
+   
+
+
+  }

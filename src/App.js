@@ -16,6 +16,7 @@ const App = () => {
         </div>
       </nav>
       <Routes>
+        <Route path="/" element={<Login />} /> {/* This is the route for the homepage */}
         <Route path="/products" element={<Products />} />
         <Route path="/login" element={<Login />} />
         <Route path="/add-product" element={<AddProduct />} />
@@ -24,4 +25,4 @@ const App = () => {
   );
 };
 
-export default App;  
+export default App;
